@@ -1,3 +1,146 @@
 * {
     box-sizing: border-box;
+    color: honeydew;
+}
+
+body {
+    background-color: black;
+    background-image: url(https://p0.piqsels.com/preview/618/529/73/bonfire-british-columbia-campfire-canada.jpg);
+    min-height: auto;
+    max-height: 100%;
+    background-position: top center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /* background-size: 100%; */
+}
+
+header {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-content: center;
+    height: 100vh;
+}
+
+header p {
+    text-align: center;
+    font-size: 18px;
+}
+
+#arrow {
+    font-size: 84px;
+}
+
+header a{
+    /* text-align: right; */
+    text-decoration: none;
+    align-items: flex-end;
+}
+
+h1 {
+    text-align: center;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    right: 0;
+    top: 50px;
+    position: fixed;
+}
+
+.navbar #myLinks {
+    display: none;
+}
+
+.navbar a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.navbar a.icon {
+    display: block;
+    right: 0;
+    top: 0;
+    background: black;
+    position: fixed;
+}
+
+#profile {
+    background-color: #1F363D;
+    /* margin-top: 75%; */
+}
+
+/* section h2 {
+    margin-top: 10px;
+} */
+
+main {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    background-color: #23262D;
+    text-align: center;
+    margin-top: 1px;
+}
+
+.project1 {
+    border: 2pt solid red;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.project2 {
+    border: 2pt solid blue;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.project3 {
+    border: 2pt solid orange;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.project4 {
+    border: 2pt solid green;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+main p {
+    margin: auto;
+    margin-top: 12px;
+}
+
+
+#education {
+    text-align: center;
+    background-color: darkred;
+    margin-top: 1px;
+}
+
+footer {
+    text-align: center;
+    background-color: darkorchid;
+    margin-top: 1px;
+}
+
+@media screen and (min-width: 600px) {
+
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+    
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
 }
