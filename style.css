@@ -107,25 +107,25 @@ main {
 }
 
 .project1 {
-    border: 2pt solid red;
+    /* border: 2pt solid red; */
     min-width: 100%;
     max-width: 100%;
 }
 
 .project2 {
-    border: 2pt solid blue;
+    /* border: 2pt solid blue; */
     min-width: 100%;
     max-width: 100%;
 }
 
 .project3 {
-    border: 2pt solid orange;
+    /* border: 2pt solid orange; */
     min-width: 100%;
     max-width: 100%;
 }
 
 .project4 {
-    border: 2pt solid green;
+    /* border: 2pt solid green; */
     min-width: 100%;
     max-width: 100%;
 }
