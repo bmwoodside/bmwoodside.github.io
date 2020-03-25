@@ -135,6 +135,13 @@ main p {
     margin-top: 12px;
 }
 
+main hr {
+    color: #4E6B6D;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    justify-content: center;
+    width: 65%;
+}
 
 #education {
     display: flex;
