@@ -14,27 +14,41 @@ body {
     /* background-size: 100%; */
 }
 
+a:visited {
+    color: honeydew;
+}
+
 header {
-    display: flex;
+    display: grid;
+    grid-template-columns: 97vw;
+    grid-template-rows: [first] 20% [one] 20% [two] 20% [three] 20% [four] 20% [end];
     text-align: center;
-    flex-direction: column;
-    align-content: center;
-    height: 100vh;
+    /* flex-direction: column;
+    align-content: center; */
+    height: 99vh;
+    padding: 0;
+}
+
+header h1 {
+    grid-row: two / three
 }
 
 header p {
     text-align: center;
     font-size: 18px;
+    margin-bottom: 12px;
 }
 
 #arrow {
     font-size: 84px;
+    margin-top: 0;
 }
 
 header a{
     /* text-align: right; */
     text-decoration: none;
-    align-items: flex-end;
+    grid-row: four / end;
+    /* align-items: flex-end; */
 }
 
 h1 {
@@ -71,12 +85,17 @@ h1 {
 
 #profile {
     background-color: #1F363D;
-    /* margin-top: 75%; */
+    margin-top: 1px;
+    padding-top: 2px;
 }
 
-/* section h2 {
-    margin-top: 10px;
-} */
+#profile h2, h4 {
+    text-align: center;
+}
+
+#profile p {
+    margin: 0;
+}
 
 main {
     display: flex;
@@ -118,15 +137,38 @@ main p {
 
 
 #education {
+    display: flex;
+    flex-flow: column wrap;
     text-align: center;
-    background-color: darkred;
+    background-color: #4C061D;
     margin-top: 1px;
+}
+
+#pdxcglogo {
+    align-self: center;
+    max-width: 50px;
+    margin-top: 6px;
+}
+
+#education ul {
+    display: inline-block;
+    list-style-type: "\2705";
+    margin: auto;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#education h3 {
+    margin: auto;
 }
 
 footer {
     text-align: center;
-    background-color: darkorchid;
+    background-color: #050517;
     margin-top: 1px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
 }
 
 @media screen and (min-width: 600px) {
