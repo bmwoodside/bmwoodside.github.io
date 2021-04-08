@@ -124,11 +124,11 @@ main {
     max-width: 100%;
 }
 
-.project4 {
+/* .project4 {
     /* border: 2pt solid green; */
-    min-width: 100%;
-    max-width: 100%;
-}
+    /* min-width: 100%;
+    max-width: 100%; */
+/* } */
 
 main p {
     margin: auto;
