@@ -1,0 +1,119 @@
+a:visited {
+    color: honeydew;
+}
+
+#arrow {
+    font-size: 84px;
+    margin-top: 0;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    right: 0;
+    top: 50px;
+    position: fixed;
+}
+
+.navbar #myLinks {
+    display: none;
+}
+
+.navbar a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.navbar a.icon {
+    display: block;
+    right: 0;
+    top: 0;
+    background: black;
+    position: fixed;
+}
+
+#education {
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    /* background-color: #4C061D; */
+    margin-top: 1px;
+}
+
+#pdxcglogo {
+    align-self: center;
+    max-width: 50px;
+    margin-top: 6px;
+}
+
+#education ul {
+    display: inline-block;
+    list-style-type: "\2705";
+    margin: auto;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#education h3 {
+    margin: auto;
+}
+
+footer {
+    text-align: center;
+    background-color: #050517;
+    margin-top: 1px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+.w3-card-4 {
+    width: 300px;
+    max-height: 400px;
+    justify-content: center;
+    align-content: center;
+}
+
+/* Sort out why this isn't changing the image space */
+.w3-card-4 img {
+    max-width: 75px;
+    align-self: center;
+    justify-self: center;
+}
+
+#projects {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.w3-card-4 p, h4 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+@media screen and (min-width: 600px) {
+
+
+    .navbar a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+        
+    .active {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+    #projects {
+        margin-left: auto;
+    }
+    
+    
+    }
