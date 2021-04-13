@@ -1,26 +1,28 @@
+a {
+    color: honeydew;
+    text-decoration: none;
+}
+
 a:visited {
     color: honeydew;
 }
 
-#arrow {
-    font-size: 84px;
-    margin-top: 0;
-}
-
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: rgba(51, 51, 51, 0.5);
     right: 0;
     top: 50px;
     position: fixed;
+    border: 1px solid honeydew;
 }
+
 
 .navbar #myLinks {
     display: none;
 }
 
 .navbar a {
-    color: white;
+    color: honeydew;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -31,8 +33,44 @@ a:visited {
     display: block;
     right: 0;
     top: 0;
-    background: black;
+    background-color: rgba(51, 51, 51, 0.1);
     position: fixed;
+    border-radius: 25%;
+}
+
+header {
+    background-color: #333;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    position: static;
+    color: honeydew;
+}
+
+.headerImage img {
+    max-height: 100vh;
+}
+
+.headerImage h3 {
+    position: absolute;
+    left: 50px;
+    top: 250px;
+}
+
+.headerImage h4 {
+    position: absolute;
+    left: 60px;
+    top: 300px;
+}
+
+/* .headerImage a {
+    position: absolute;
+    left: 135px;
+    bottom: 0px
+} */
+
+#arrow {
+    font-size: 84px;
 }
 
 #education {

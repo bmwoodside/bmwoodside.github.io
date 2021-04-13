@@ -11,32 +11,37 @@
 </head>
 
 <body>
-
     <header id="home">
         <!-- Navigation links (hidden by default) -->
         <div class="navbar">
             <div id="myLinks">
-            <a href="#home">Home</a>
-            <a href="#profile">About Me</a>
-            <a href="#projects">Projects</a>
-            <a href="#education">Education</a>
+                <a href="#home" onclick="navButton()">Home</a>
+                <a href="#profile" onclick="navButton()">About Me</a>
+                <a href="#projects" onclick="navButton()">Projects</a>
+                <a href="#education" onclick="navButton()">Education</a>
             </div>
             <!-- Hamburger Icon Image and Javascript Call Function for Dropdown Menu -->
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <a href="javascript:void(0);" class="icon" onclick="navButton()">
                 <i class="fas fa-bars"></i><br>
             </a>
         </div>
-
-        <h1>Matt Woodside</h1>
-        <a href="#profile"><p>Click Here or Scroll Down to get started!</p>
-        <i class="fas fa-angle-down" id="arrow"></i></a>
+        
+        <div class="headerImage">
+            <img class="w3-image" src="Computer_Light.jpg" alt="Computer resting on a tabletop" width="5655" height="3775">
+            <h3>Hi!</h3>
+            <h4>I'm Matt!</h4>
+                <a href="#profile" class="w3-display-container w3-display-bottommiddle">
+                    <p>Click Here or Scroll Down to get started!</p>
+                    <i class="fas fa-angle-down" id="arrow"></i>
+                </a>
+        </div>
     </header>
 
     <section id="profile">
         <h2>Welcome!</h2>
         <h4>Thanks for visiting!</h4>
         <p> 
-            I'm a developer (more on that below!), musician, and aviator. I primarily spend time writing code for my own projects while questing for a full-time development position. In my spare time I try to stay busy engaging my local community at our flight school and rocketry clubs. Currently I'm residing in wonderful Greenville, South Carolina, but I'm always interested in opportunities that may broaden my horizon.
+            I'm a developer (more on that below!), musician, and aviator. I primarily spend time writing code for my own projects while questing for a full-time development position. In my spare time I try to stay busy engaging my local community at our flight school and rocketry clubs. Currently I'm residing in wonderful Greenville, South Carolina, but I'm definitely open to moving somewhere new and exciting!
         </p>
     </section>
 
@@ -47,9 +52,8 @@
         <div id="projects">
             <div class="w3-card-4">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Forbidden_Symbol_Transparent.svg/240px-Forbidden_Symbol_Transparent.svg.png" alt="description of picture for project1">
-                <header class="w3-container">
-                    <h4>Project 1</h4>
-                </header>
+                <hr>
+                <h4>Project 1</h4>
                 <div class="w3-container w3-center">
                     <p>words here about project1. this is where words go. many words and more and things and stuff and words and lots of other ideas.</p>
                 </div>
