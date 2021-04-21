@@ -99,6 +99,10 @@ header {
     margin: auto;
 }
 
+#projects a {
+    color: black;
+}
+
 footer {
     text-align: center;
     background-color: #050517;
