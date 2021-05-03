@@ -1,3 +1,7 @@
+html, body {
+    max-width: 100vw;
+}
+
 a {
     color: honeydew;
     text-decoration: none;
@@ -9,14 +13,15 @@ a:visited {
 
 .navbar {
     overflow: hidden;
+    padding: 0;
     background-color: rgba(51, 51, 51, 0.5);
     right: 0;
     top: 50px;
     position: fixed;
     border: 1px solid honeydew;
+    z-index: 1030;
     
 }
-
 
 .navbar #myLinks {
     display: none;
@@ -74,6 +79,15 @@ header {
     font-size: 84px;
 }
 
+#projectsSection {
+    border: 1px solid black;
+    border-radius: 30%;
+}
+
+.card {
+    margin: 15px 15px 15px 15px;
+}
+
 #education {
     display: flex;
     flex-flow: column wrap;
@@ -113,30 +127,10 @@ footer {
     justify-content: space-around;
 }
 
-.w3-card-4 {
-    width: 300px;
-    max-height: 400px;
-    justify-content: center;
-    align-content: center;
-}
-
-/* Sort out why this isn't changing the image space */
-.w3-card-4 img {
-    max-width: 75px;
-    align-self: center;
-    justify-self: center;
-}
-
 #projects {
     display: flex;
     flex-flow: column;
     align-items: center;
-}
-
-.w3-card-4 p, h4 {
-    display: flex;
-    justify-content: center;
-    align-content: center;
 }
 
 
