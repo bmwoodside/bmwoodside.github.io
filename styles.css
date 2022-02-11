@@ -1,156 +1,97 @@
-html, body {
-    max-width: 100vw;
-}
 
-a {
-    color: honeydew;
-    text-decoration: none;
-}
 
-a:visited {
-    color: honeydew;
-}
-
-.navbar {
-    overflow: hidden;
-    padding: 0;
-    background-color: rgba(51, 51, 51, 0.5);
-    right: 0;
-    top: 50px;
-    position: fixed;
-    border: 1px solid honeydew;
-    z-index: 1030;
-    
-}
-
-.navbar #myLinks {
-    display: none;
-}
-
-.navbar a {
-    color: honeydew;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
-}
-
-.navbar a.icon {
-    display: block;
-    right: 0;
-    top: 0;
-    background-color: rgba(51, 51, 51, 0.1);
-    position: fixed;
-    border-radius: 25%;
-}
-
-header {
-    background-color: #333;
-    width: 100vw;
+.landing-view {
+    background-color: rgb(72, 72, 255);
     height: 100vh;
-    margin: 0;
-    position: static;
-    color: honeydew;
+    color: antiquewhite;
+    /* max-height: 100vh;
+    overflow: hidden; */
+    padding: 0.5rem;
 }
 
-/* .headerImage img {
-    max-height: 100vh;
+.landing-view h1 {
+    font-size: 10rem;
 }
 
-.headerImage h3 {
-    position: absolute;
-    left: 50px;
-    top: 250px;
+.landing-view > h2 {
+    text-align: center;
 }
 
-.headerImage h4 {
-    position: absolute;
-    left: 60px;
-    top: 300px;
-} */
-
-/* .headerImage a {
-    position: absolute;
-    left: 135px;
-    bottom: 0px
-} */
-
-#arrow {
-    font-size: 84px;
+.landing-view p {
+    text-align: center;
+    margin-top: 1rem;
 }
 
-#projectsSection {
-    border: 1px solid black;
-    border-radius: 30%;
+.landing-links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fa-brands {
+    color: antiquewhite;
+    font-size: 2rem;
+}
+
+.projects-cards {
+    min-height: 100vh;
+    max-height: 100%;
+    padding: 0.5rem;
+}
+
+.projects-cards h1 {
+    font-size: 4rem;
+}
+
+.button-links {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .card {
-    margin: 15px 15px 15px 15px;
+    box-shadow: 1px 1px 2px black;
+    max-width: 99vw;
 }
 
-#education {
-    display: flex;
-    flex-flow: column wrap;
+.placeholder-text {
     text-align: center;
-    /* background-color: #4C061D; */
-    margin-top: 1px;
+    margin: 25% 0;
 }
 
-#pdxcglogo {
-    align-self: center;
-    max-width: 50px;
-    margin-top: 6px;
+.about-me {
+    /* background-color: #973CF4; */
+    background-color: rgb(72, 72, 255);
+    color: antiquewhite;
+    min-height: 100vh;
+    max-height: 100%;
+    padding: 0.5rem;
 }
 
-#education ul {
-    display: inline-block;
-    list-style-type: "\2705";
-    margin: auto;
-    text-align: left;
-    margin-bottom: 20px;
+.links-container {
+    display: flex;
+    justify-content: space-evenly;
 }
 
-#education h3 {
-    margin: auto;
+.section-container {
+    display: flex;
 }
 
-/* #projects a {
-    color: black;
-} */
-
-footer {
+.fa-solid {
+    color: antiquewhite;
+    font-size: 2rem;
     text-align: center;
-    background-color: #050517;
-    margin-top: 1px;
-    display: flex;
-    flex-flow: row;
-    justify-content: space-around;
 }
 
-#projects {
+.about-me-section {
     display: flex;
-    flex-flow: column;
-    align-items: center;
+    flex-direction: column;
+    max-width: 50%;
+    margin: auto;
+    margin: 0.5rem;
+    margin-top: 2rem;
+
 }
 
-
-
-@media screen and (min-width: 600px) {
-
-
-    .navbar a:hover {
-        background-color: #ddd;
-        color: black;
-    }
-        
-    .active {
-        background-color: #4CAF50;
-        color: white;
-    }
-
-    #projects {
-        margin-left: auto;
-    }
-    
-    
-    }
+.description-header {
+    text-align: center;
+    margin: 0.75rem;
+}
