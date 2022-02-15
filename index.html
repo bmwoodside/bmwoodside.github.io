@@ -14,21 +14,33 @@
 </head>
 <body>
     
-    <!-- <nav>
-        Navbar and Links here!
+    <div class="nav">
         <a href=#landing-view>Home</a>
         <a href="#projects-cards">Projects</a>
         <a href="#about-me">About Me!</a>
-    </nav> -->
+    </div>
+
+    <!-- <div class="menu-btn">
+        <div class="menu-btn-burger"></div>
+    </div> -->
+
+
+
 
     <div class="landing-view" id="landing-view">
         <!-- TODO: add images pop-ins for pictures of MERN, Spring, and Flask logos -->
         <h1>Hi, I'm Matt!</h1>
-        <h2>Web Developer, Gamer, Pilot...</h2>
+
+        <div class="landing-h2-row-container">
+            <img src="./images/MERN-logo.png" class="languages-images" alt="MERN Logo image">
+            <h2>Web Developer, Gamer, Pilot...</h2>
+            <img src="./images/python_frameworks.jpg" class="languages-images" alt="python frameworks image">
+        </div>
         <p>I love to learn new things and constantly improve! Between Coding and being a pilot, not a day goes by without learning something new. After a hard day's work, I like to hang out with my amazing community of friends and relax with good vibes and games!</p>
         
         <div class="landing-links">
             <a href="https://github.com/bmwoodside"><i class="fa-brands fa-github"></i></a>
+            <img src="./images/java_spring_logo.jpg" class="languages-images" alt="JAVA logo image">
             <a href="https://www.linkedin.com/in/bryan-woodside/"><i class="fa-brands fa-linkedin"></i></a>
         </div>
 
@@ -53,7 +65,7 @@
                 </div>
             </div>
 
-            <!-- <div class="col">
+            <div class="col">
                 <div class="card h-100">
                     <img src="./images/checkmark.png" class="card-img-top" alt="Project #2 Placeholder Image">
                     <div class="card-body">
@@ -65,8 +77,8 @@
                         </div>
                     </div>
                 </div>
-            </div> -->
-            <!-- <div class="col">
+            </div>
+            <div class="col">
                 <div class="card h-100">
                     <img src="./images/checkmark.png" class="card-img-top" alt="Project #3 Placeholder Image">
                     <div class="card-body">
@@ -78,7 +90,7 @@
                         </div>
                     </div>
                 </div>
-            </div> -->
+            </div>
         </div>
 
         <h3 class="placeholder-text">More projects coming soon!</h3>
@@ -122,6 +134,20 @@
             </div>
         </div>
     </div>
+
+    <!-- <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        let menuOpen = false;
+        menuBtn.addEventListener('click', () => {
+            if (!menuOpen) {
+                menuBtn.classList.add('open');
+                menuOpen = true;
+            } else {
+                menuBtn.classList.remove('open');
+                menuOpen = false;
+            }
+        })
+    </script> -->
 
 </body>
 </html>
