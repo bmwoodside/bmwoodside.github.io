@@ -189,6 +189,7 @@ body {
     .landing-h2-row-container {
         display: flex;
         justify-content: space-evenly;
+        align-items: center;
     }
 
     .languages-images {
@@ -196,8 +197,6 @@ body {
         object-fit:contain;
         /* width: 40px; */
         max-width: 200px;
-        /* justify-content: center; */
-        align-items: center;
     }
 
     .landing-view {
@@ -208,6 +207,12 @@ body {
 
     .landing-view h1, h2 {
         text-align: center;
+    }
+
+    .landing-links {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
     }
 
     .placeholder-text {
